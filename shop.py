@@ -105,7 +105,7 @@ class Shop:
     def sell(self, player, item_name, quantity=1):
         """Player sells item(s) to the shop."""
         sell_price = None
-        items_to_sell = []
+        items_to_sel.l = []
 
         for inv_item in player.inventory:
             if inv_item.name == item_name:
